@@ -30,13 +30,13 @@ export default function Hero() {
               href="#quote"
               className="bg-slate-950 text-white font-medium px-8 py-4 rounded-xl hover:bg-slate-800 transition-all shadow-sm text-center text-base"
             >
-              Ingyenes árajánlatkérés
+              Tekintse meg a kő anyagmintákat
             </Link>
             <Link 
               href="#stones"
               className="bg-white/80 border border-stone-300 text-stone-900 font-medium px-8 py-4 rounded-xl hover:bg-white transition-all shadow-sm text-center text-base"
             >
-              Tekintse meg a kő anyagmintákat
+              Ingyenes ajánlatkérés
             </Link>
           </div>
 
