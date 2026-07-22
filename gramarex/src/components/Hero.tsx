@@ -27,13 +27,13 @@ export default function Hero() {
           {/* Két gomb */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
             <Link 
-              href="#quote"
+              href="#stones"
               className="bg-slate-950 text-white font-medium px-8 py-4 rounded-xl hover:bg-slate-800 transition-all shadow-sm text-center text-base"
             >
               Tekintse meg a kő anyagmintákat
             </Link>
             <Link 
-              href="#stones"
+              href="#quote"
               className="bg-white/80 border border-stone-300 text-stone-900 font-medium px-8 py-4 rounded-xl hover:bg-white transition-all shadow-sm text-center text-base"
             >
               Ingyenes ajánlatkérés

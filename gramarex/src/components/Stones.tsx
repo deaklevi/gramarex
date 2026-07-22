@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function StoneSection() {
   return (
-    <section id="ko-anyagmintak" className="relative w-full min-h-screen bg-stone-950 text-[#FDFBF7] flex items-center justify-center overflow-hidden py-24 px-6">
+    <section id="stones" className="relative w-full min-h-screen bg-stone-950 text-[#FDFBF7] flex items-center justify-center overflow-hidden py-24 px-6">
       
       {/* Háttér kép finom sötétítéssel és parallax jellegű hatással */}
       <div className="absolute inset-0 z-0">
@@ -32,19 +34,19 @@ export default function StoneSection() {
             Jöjjön el hozzánk, hogy saját szemével láthassa kőanyagaink valódi textúráját és árnyalatait — még a tervezőasztalon vagy kérjen ajánlatot.
           </p>
 
-          <div className="flex flex-wrap gap-4">
-            <a
-              href="#kapcsolat"
-              className="px-8 py-4 rounded-xl bg-[#FDFBF7] text-stone-950 font-medium text-sm tracking-wide hover:bg-amber-100 transition-colors shadow-lg"
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto pt-2">
+            <Link 
+              href="#stones"
+              className="bg-white/80 border border-stone-300 text-stone-900 font-medium px-8 py-4 rounded-xl hover:bg-white transition-all shadow-sm text-center text-base"
             >
-              Kő anyagminták
-            </a>
-            <a
-              href="#ajanlatkeres"
-              className="px-8 py-4 rounded-xl bg-stone-900/80 hover:bg-stone-900 text-[#FDFBF7] border border-stone-800 font-medium text-sm tracking-wide transition-colors backdrop-blur-sm"
+              Tekintse meg a kő anyagmintákat
+            </Link>
+            <Link 
+              href="#quote"
+              className="bg-slate-950 text-white font-medium px-8 py-4 rounded-xl hover:bg-slate-800 transition-all shadow-sm text-center text-base"
             >
               Ingyenes ajánlatkérés
-            </a>
+            </Link>
           </div>
         </div>
 

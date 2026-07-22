@@ -2,7 +2,7 @@ export default function Footer() {
     const currentYear = new Date().getFullYear();
     
   return (
-    <footer className="w-full bg-[#FDFBF7] text-stone-800 pt-20 pb-10 border-t border-stone-200/60">
+    <footer id="contact" className="w-full bg-[#FDFBF7] text-stone-800 pt-20 pb-10 border-t border-stone-200/60">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Fő tartalom: 2 oszlopos elrendezés (Bal: Logo + leírás, Jobb: Kapcsolat) */}
