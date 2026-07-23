@@ -8,8 +8,8 @@ export default function Navbar() {
   const navLinks = [
     { href: '#categories', label: 'Kategóriák' },
     { href: '#gallery', label: 'Galéria' },
-    { href: '#ko-anyagmintak', label: 'Kő anyagminták' },
-    { href: '#footer', label: 'Kapcsolat' },
+    { href: '#stones', label: 'Kő anyagminták' },
+    { href: '#contact', label: 'Kapcsolat' },
   ];
 
   const handleLinkClick = () => {
@@ -23,7 +23,7 @@ export default function Navbar() {
           
           {/* Logo */}
           <a 
-            href="#hero" 
+            href="/" 
             className="text-2xl font-bold tracking-tight text-stone-900 transition-transform duration-300 hover:scale-105 active:scale-95 z-50"
           >
             Gramarex
