@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
 };
 
-export default function Stones() {
+export default function KoAnyagmintak() {
   return (
     <div className="min-h-screen bg-[#FDFBF7] pt-28 pb-16 px-6">
       <div className="max-w-7xl mx-auto flex flex-col items-center">

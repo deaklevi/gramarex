@@ -25,7 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="hu" className="scroll-smooth">
+    // Itt történt a javítás: bekerült a data-scroll-behavior="smooth"
+    <html lang="hu" className="scroll-smooth" data-scroll-behavior="smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FDFBF7] text-stone-900`}>
         <Navbar />
         <main>{children}</main>
