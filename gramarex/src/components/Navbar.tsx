@@ -47,7 +47,7 @@ export default function Navbar() {
           <div className="hidden md:block">
             <a 
               href="#quote" 
-              className="px-6 py-2.5 rounded-full bg-stone-900 text-[#FDFBF7] text-sm font-medium transition-all duration-300 hover:bg-stone-800 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
+              className="px-6 py-2.5 rounded-full bg-slate-950 text-[#FDFBF7] text-sm font-medium transition-all duration-300 hover:bg-slate-800 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
             >
               Ajánlatkérés
             </a>
@@ -91,7 +91,7 @@ export default function Navbar() {
             <a 
               href="#quote" 
               onClick={handleLinkClick}
-              className="px-8 py-3.5 rounded-full bg-stone-900 text-[#FDFBF7] text-base font-medium shadow-md transition-transform active:scale-95"
+              className="px-8 py-3.5 rounded-full bg-slate-950 text-[#FDFBF7] text-base font-medium shadow-md transition-transform active:scale-95"
             >
               Ajánlatkérés
             </a>
