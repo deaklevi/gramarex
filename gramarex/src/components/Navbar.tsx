@@ -6,10 +6,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: '#categories', label: 'Kategóriák' },
-    { href: '#gallery', label: 'Galéria' },
-    { href: '#stones', label: 'Kő anyagminták' },
-    { href: '#contact', label: 'Kapcsolat' },
+    { href: '/#categories', label: 'Kategóriák' },
+    { href: '/#gallery', label: 'Galéria' },
+    { href: '/#stones', label: 'Kő anyagminták' },
+    { href: '/#contact', label: 'Kapcsolat' },
   ];
 
   const handleLinkClick = () => {
