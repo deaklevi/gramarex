@@ -42,7 +42,7 @@ export default function StoneSection() {
               Tekintse meg a kő anyagmintákat
             </Link>
             <Link 
-              href="#quote"
+              href="ajanlatkeres"
               className="bg-slate-950 text-white font-medium px-8 py-4 rounded-xl hover:bg-slate-800 transition-all shadow-sm text-center text-base"
             >
               Ingyenes ajánlatkérés
