@@ -25,7 +25,7 @@ export default function StoneCard({ group }: StoneCardProps) {
   const [selectedItem, setSelectedItem] = useState<StoneItem | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://palasti-laravel.saastemp.top';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://palasti-backend2.saavatar.top';
 
   useEffect(() => {
     const fetchStones = async () => {
